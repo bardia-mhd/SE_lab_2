@@ -1,6 +1,7 @@
 class Rectangle:
     def __init__(self, width, height):
-        pass
+        self.width = width
+        self.height = height
 
     def compute_area(self):
-        pass
+        return self.width * self.height
