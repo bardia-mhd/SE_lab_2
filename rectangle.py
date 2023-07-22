@@ -1,5 +1,5 @@
 class Rectangle:
-    def __init__(self):
+    def __init__(self, width, height):
         pass
 
     def compute_area(self):
