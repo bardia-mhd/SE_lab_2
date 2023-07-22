@@ -4,16 +4,16 @@ class Rectangle:
         self.height = height
 
     def set_width(self, width):
-        pass
+        self.width = width
 
     def set_height(self, height):
-        pass
+        self.height = height
 
     def get_width(self):
-        pass
+        return self.width
 
     def get_height(self):
-        pass
+        return self.height
 
     def compute_area(self):
         return self.width * self.height
